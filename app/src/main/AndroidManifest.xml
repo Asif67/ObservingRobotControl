@@ -10,13 +10,19 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".LineFollow">
+        <activity
+                android:name=".LineFollow"
+                android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".ObstacleAvoid">
+        <activity
+                android:name=".ObstacleAvoid"
+                android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".ManualControl">
+        <activity android:name=".ManualControl"
+                  android:screenOrientation="portrait">
         </activity>
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+                  android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
