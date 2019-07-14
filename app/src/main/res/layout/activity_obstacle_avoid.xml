@@ -7,43 +7,47 @@
         android:layout_height="match_parent"
         tools:context=".ObstacleAvoid">
     <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Welcome to Obstacle Avoiding Mode"
+            android:layout_width="310dp"
+            android:layout_height="41dp"
+            android:text="[Welcome To Obstacle Avoiding Mode]"
             app:layout_constraintLeft_toLeftOf="parent"
             app:layout_constraintRight_toRightOf="parent"
             android:id="@+id/textView"
-            android:textSize="18sp"
-            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="105dp"
-            android:layout_marginBottom="3dp"
-            app:layout_constraintBottom_toTopOf="@+id/editTextIPoa"/>
+            android:textSize="17sp"
+            app:layout_constraintTop_toTopOf="parent" android:layout_marginTop="36dp"
+            app:layout_constraintHorizontal_bias="0.495"/>
     <WebView
-            android:layout_width="396dp"
-            android:layout_height="441dp"
+
+            android:layout_width="408dp"
+            android:layout_height="388dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
             android:id="@+id/oaWebView"
             android:layout_marginTop="103dp" app:layout_constraintTop_toBottomOf="@+id/oabtnLoad"/>
     <EditText
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="369dp"
+            android:layout_height="49dp"
             android:inputType="textPersonName"
             android:ems="10"
-            android:id="@+id/editTextIPoa" android:layout_marginTop="10dp"
+            android:id="@+id/editTextIPoa" android:layout_marginTop="32dp"
             app:layout_constraintTop_toBottomOf="@+id/textView"
             app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="136dp" android:layout_marginRight="136dp" android:hint="IP Address"
-            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="62dp"
-            android:layout_marginStart="62dp"/>
+            android:layout_marginEnd="136dp" android:layout_marginRight="135dp" android:hint="Ip Address"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="61dp"
+            android:layout_marginStart="62dp" app:layout_constraintHorizontal_bias="0.294"
+            android:textSize="20sp" android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintVertical_bias="0.088"/>
     <Button
-            android:text="Load"
-            android:layout_width="88dp"
-            android:layout_height="48dp"
+            android:text="Loading"
+            android:layout_width="126dp"
+            android:layout_height="52dp"
             android:id="@+id/oabtnLoad" android:layout_marginEnd="24dp" android:layout_marginRight="24dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/editTextIPoa" android:layout_marginLeft="24dp"
-            android:layout_marginStart="24dp" android:layout_marginTop="10dp"
-            app:layout_constraintTop_toBottomOf="@+id/textView"/>
+            android:textSize="20sp"
+            android:layout_marginTop="168dp" app:layout_constraintTop_toTopOf="parent" android:layout_marginStart="8dp"
+            app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+            app:layout_constraintHorizontal_bias="0.992" android:layout_marginBottom="8dp"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.113"/>
 
 </android.support.constraint.ConstraintLayout>
