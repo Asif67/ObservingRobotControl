@@ -22,7 +22,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintBottom_toBottomOf="parent" android:id="@+id/mcWebView"
-            android:layout_marginTop="19dp" app:layout_constraintTop_toBottomOf="@+id/mcbtnDown"/>
+    />
     <EditText
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
@@ -76,7 +76,7 @@
             app:layout_constraintBottom_toTopOf="@+id/mcWebView" android:layout_marginTop="5dp"
             app:layout_constraintTop_toBottomOf="@+id/mcbtnUp"/>
     <Button
-            android:text="Button"
+            android:text="Load"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/mcbtnLoad" android:layout_marginEnd="34dp" android:layout_marginRight="34dp"
